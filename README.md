@@ -15,6 +15,11 @@ The whole method’s structure can be dived into three parts: Dataset, Model and
 ### Dataset
 The dataset used in this model is collected from Kaggle, which contains a total of 6432 x-ray images that are subdivided into test and train datasets. This comparative big dataset provides various research paths about detecting the Covid-19 virus in various computer vision ways.
 [Dataset Link](https://www.kaggle.com/prashant268/chest-xray-covid19-pneumonia)
+  <img
+  src="/images/data_table.jpg"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; align: center; margin: 0 auto; max-width: 100px">
 
 ### Model
 The deep neural-based model contains different kinds of layers and functions such as a convolutional layer, fully connected layers, max-pooling and so on. A brief overview of these functions are given below, 
@@ -29,8 +34,3 @@ The purpose of the ReLU is to give non-linearity to the model. It set all the ne
   + 2. Soft Max activation function is used for the last dense layer in this model. The function is used when the output value is needed to be normalized. It converts the inputs from weighted sum values into probabilities that range from zero to one.
 
 ### Evaluation Metric
-<img
-  src="/images/data_table.jpg"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
