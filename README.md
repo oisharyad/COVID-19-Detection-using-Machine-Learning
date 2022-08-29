@@ -29,3 +29,8 @@ The purpose of the ReLU is to give non-linearity to the model. It set all the ne
   + 2. Soft Max activation function is used for the last dense layer in this model. The function is used when the output value is needed to be normalized. It converts the inputs from weighted sum values into probabilities that range from zero to one.
 
 ### Evaluation Metric
+<img
+  src="/images/data_table.jpg"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
