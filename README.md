@@ -45,15 +45,17 @@ The proposed model is evaluated using Precession, Recall and F1 score.
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; align: center; margin: 10x auto; width: 300px"> 
- </br> 
+ 
 + Recall: Also known as sensitivity. A model can find all the relevant cases. The equation:
+</br>
 <img
   src="/images/recall.jpg"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; align: center; margin: 10x auto; width: 300px"> 
- </br>
+
  + F1 Score: The F1 score is the harmonic mean of the previous two (precision and recall) and can be shown as
+ </br>
  <img
   src="/images/f1score.jpg"
   alt="Alt text"
