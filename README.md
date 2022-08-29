@@ -37,3 +37,24 @@ The purpose of the ReLU is to give non-linearity to the model. It set all the ne
   + 2. Soft Max activation function is used for the last dense layer in this model. The function is used when the output value is needed to be normalized. It converts the inputs from weighted sum values into probabilities that range from zero to one.
 
 ### Evaluation Metric
+The proposed model is evaluated using Precession, Recall and F1 score.
++ Precision: Precision can be defined as the percentage of the detection of true positive among all the predictions (false positive+ true positive). The equation can be given as,
+<img
+  src="/images/precision.jpg"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; align: center; margin: 10x auto; max-width: 100px"> 
+  
++ Recall: Also known as sensitivity. A model can find all the relevant cases. The equation:
+<img
+  src="/images/recall.jpg"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; align: center; margin: 10x auto; max-width: 100px"> 
+ 
+ + F1 Score: The F1 score is the harmonic mean of the previous two (precision and recall) and can be shown as
+ <img
+  src="/images/f1score.jpg"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; align: center; margin: 10x auto; max-width: 100px"> 
