@@ -24,6 +24,6 @@ The deep neural-based model contains different kinds of layers and functions suc
 + Adam optimizer is an adaptive learning method. It computes individual learning rates for different parameters.
 + Early Stop Function: Early stop function is usually used to set a limit on the training of the model to prevent overfitting. It checks the validation loss in every epoch and compares the value with the previous validation loss. If the value is lower than the previous value the models continue to iterate but if the loss value is higher than the previous loss function in six consecutive terms it stops the model from further epoch.
 + Activation function:
-++ 1.Rectified Linear Unit (ReLU) is used as the activation function for all the convolutional layers and the first two Dense layers in this model.
+  + 1.Rectified Linear Unit (ReLU) is used as the activation function for all the convolutional layers and the first two Dense layers in this model.
 The purpose of the ReLU is to give non-linearity to the model. It set all the negative values to zero and preserves only positive values. This function helps to reduce unnecessary noises from the data. 
-++ 2. Soft Max activation function is used for the last dense layer in this model. The function is used when the output value is needed to be normalized. It converts the inputs from weighted sum values into probabilities that range from zero to one.
+  + 2. Soft Max activation function is used for the last dense layer in this model. The function is used when the output value is needed to be normalized. It converts the inputs from weighted sum values into probabilities that range from zero to one.
