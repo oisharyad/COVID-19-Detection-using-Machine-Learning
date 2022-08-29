@@ -27,3 +27,5 @@ The deep neural-based model contains different kinds of layers and functions suc
   + 1.Rectified Linear Unit (ReLU) is used as the activation function for all the convolutional layers and the first two Dense layers in this model.
 The purpose of the ReLU is to give non-linearity to the model. It set all the negative values to zero and preserves only positive values. This function helps to reduce unnecessary noises from the data. 
   + 2. Soft Max activation function is used for the last dense layer in this model. The function is used when the output value is needed to be normalized. It converts the inputs from weighted sum values into probabilities that range from zero to one.
+
+### Evaluation Metric
