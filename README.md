@@ -22,7 +22,7 @@ The whole dataset contains x-rays of three classes, Normal, Pneumonia and Covid-
   src="/images/data_table.jpg"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; align: center; margin: 10x auto; width: 200px">
+  style="display: inline-block; align: center; margin: 10x auto; width: 300px">
 
 ### Model
 The deep neural-based model contains different kinds of layers and functions such as a convolutional layer, fully connected layers, max-pooling and so on. A brief overview of these functions are given below, 
@@ -44,18 +44,18 @@ The proposed model is evaluated using Precession, Recall and F1 score.
   src="/images/precision.jpg"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; align: center; margin: 10x auto; width: 200px"> 
+  style="display: inline-block; align: center; margin: 10x auto; width: 300px"> 
  </br> 
 + Recall: Also known as sensitivity. A model can find all the relevant cases. The equation:
 <img
   src="/images/recall.jpg"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; align: center; margin: 10x auto; width: 200px"> 
+  style="display: inline-block; align: center; margin: 10x auto; width: 300px"> 
  </br>
  + F1 Score: The F1 score is the harmonic mean of the previous two (precision and recall) and can be shown as
  <img
   src="/images/f1score.jpg"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; align: center; margin: 10x auto; width: 200px"> 
+  style="display: inline-block; align: center; margin: 10x auto; width: 300px"> 
